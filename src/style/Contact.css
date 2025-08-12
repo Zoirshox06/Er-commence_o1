@@ -1,0 +1,150 @@
+.contact-container {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact-icon {
+  color: white;
+  padding: 10px;
+  border-radius:10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contact-heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.contact-subtext {
+  margin: 4px 0;
+  color: gray;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  padding: 8px;
+}
+
+.contact-form button {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section input[type="email"] {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+}
+
+.footer-apps img {
+  width: 100px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+.divtlar {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f8f8f8;
+  min-height: 50vh;
+}
+
+.divtlar h1 {
+  font-size: 36px;
+  color: #ff4d4f;
+  margin-bottom: 20px;
+}
+
+.divtlar p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.divtlar button {
+  padding: 10px 20px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.divtlar button:hover {
+  background-color: #d9363e;
+}

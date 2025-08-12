@@ -1,0 +1,195 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.text {
+  display: flex;
+  gap: 20px;
+}
+
+.text a {
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.text a:hover {
+  color: #007BFF;
+}
+
+.ch-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ch-nav input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.ch-nav input:focus {
+  border-color: #007BFF;
+}
+
+.ch-nav h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.ch-nav h1:hover {
+  color: #e70d52;
+}
+
+@media (max-width: 768px) {
+  nav { 
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ch-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ch-nav input {
+    width: 100%;
+  }
+}
+/* MAIN */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 50px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+  gap: 20px;
+}
+
+/* CHAP MENU (KATEGORIYALAR) */
+.b-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.b-div p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.b-div p:hover {
+  color: #007BFF;
+}
+
+/* O‘RTADAGI QORA CHIZIQ */
+.i-div {
+  width: 2px;
+  height: 270px;
+  background-color: #000;
+}
+
+/* O‘NGDAGI BANNER VA RASM BLOKI */
+.u-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: black;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+/* BANNER MATN QISMI */
+.omaim h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.omaim h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.omaim p {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+.omaim p:hover {
+  background-color: #0056b3;
+}
+
+.u-div img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+.language-select {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.language-select select {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.language-select select:hover {
+  border-color: #007bff;
+}
+
+.language-select select:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
