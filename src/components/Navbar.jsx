@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../style/Navbar.css';
 import { MdOutlineShoppingCart, MdFavoriteBorder } from "react-icons/md";
 
-function Navbar() {
+function Navbar({ likeCounter }) {
   return (
     <nav>
       <h1>Exclusive</h1>
@@ -13,16 +13,17 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/signup">Sign Up</Link>
       </div>
+
       <div className="ch-nav">
         <input type="text" placeholder='What are you looking for?' />
-        <MdFavoriteBorder size={24} />
+
+        <div className="favorite">
+          <MdFavoriteBorder size={24} />
+          <span className="like-count">{likeCounter}</span>
+        </div>
+
         <MdOutlineShoppingCart size={24} />
       </div>
-      <select className='language-select'>
-        <option>English</option>
-        <option>Russian</option>
-        <option>Uzbek</option>
-      </select>
     </nav>
   );
 }

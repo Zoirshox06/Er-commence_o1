@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../style/Signup.css'
+import magizine from  '../../assets/magizne.png'
 
 function Signup() {
   return (
     <div className="signup-container">
       <div className="signup-left">
-        <img src="/images/phone-cart.png" alt="Phone in cart" />
+        <img src={magizine} alt="" />
       </div>
 
       <div className="signup-right">
